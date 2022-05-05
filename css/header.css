@@ -1,0 +1,78 @@
+.header {
+    background-image: url(../img/destaque.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2em 0;
+}
+
+.header__lista {
+    display: flex;
+    justify-content: center;
+}
+
+.header__item {
+    padding: 1em;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.header__item:hover {
+    background-color: #48a3a6;
+    transition: background-color 0.5s ease-in;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.header__conteudo {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+}
+
+.header__titulo,
+.header__texto {
+    font-weight: 700;
+    text-shadow: 0.1em 0.1em 0.2em #000;
+}
+
+.header__titulo {
+    font-size: 2.8em;
+    color: #fff;
+    margin: 0.2em 0;
+}
+
+.header__texto {
+    color: #64ff64;
+    font-size: 2.5em;
+    margin: 0.2em 0 0.8em 0;
+}
+
+.header__botao {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    padding: 1em 2.5em;
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+    background-color: #48a3a6;
+    box-shadow: 0.1em 0.1em 0.2em #000;
+}
+
+@media screen and (min-width: 1024px) {
+    .header__titulo {
+        font-size: 5em;
+    }
+
+    .header__texto {
+        font-size: 4.5em;
+    }
+
+    .header__botao {
+        font-size: 1.3em;
+    }
+}
