@@ -1,0 +1,36 @@
+.formulario {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.formulario__titulo {
+    font-size: 2rem;
+    color: #f17e50;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.formulario__label {
+    display: block;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.formulario__input {
+    display: block;
+    width: 90%;
+    height: 1.5rem;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+.formulario__botao {
+    border: none;
+    border-radius: 0.5em;
+    padding: 1em 2.5em;
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+    background-color: #48a3a6;
+    margin-left: 1rem;
+}
