@@ -8,19 +8,21 @@
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/sobre.css">
+        <link rel="stylesheet" href="css/palestrantes.css">
+        <link rel="stylesheet" href="css/formulario.css">
     </head>
     <body>        
         <header class="header">
             <nav>
                 <ul class="header__lista">
                     <li class="header__item"><a class="header__link" href="#sobre">Sobre</a></li>
-                    <li class="header__item"><a class="header__link" href="#">Palestrantes</a></li>
+                    <li class="header__item"><a class="header__link" href="#palestrantes">Palestrantes</a></li>
                 </ul>
             </nav>
             <div class="header__conteudo">
                 <h1 class="header__titulo">AluraConf</h1>
                 <h2 class="header__texto">30Maio/Rio</h2>
-                <a class="header__botao" href="#">Inscreva-se</a>
+                <a class="header__botao" href="#formulario">Inscreva-se</a>
             </div>
         </header>
         <main>
@@ -30,6 +32,64 @@
                 <p class="sobre__paragrafo">Com a AluraConf abordaremos o que há de novidade e conhecimentos essenciais a um desenvolver mobile.</p>
                 <p class="sobre__paragrafo">É uma grande chance de ficar por dentro dos assuntos de Android, iOS, Web mobile, desenvolvimento híbrido, Ux, além da parte backend com Rest, Microservices, e Big Data. O desenvolvedor atualizado vai estar aqui.</p>
             </section>
+            <section id="palestrantes" class="palestrantes">
+                <h2 class="palestrantes__titulo">Palestrantes</h2>
+                <h3 class="palestrantes__texto">Aprenda com palestrantes que são referência na comunidade</h3>
+                <ul class="palestrantes__lista">
+                    <li class="palestrantes__item">
+                        <img class="palestrantes__item--img" src="img/palestrantes/placeholder.jpeg" alt="Foto palestrante">
+                        <p class="palestrantes__item--nome">Cassia Sotolani</p>
+                        <p class="palestrantes__item--area">Estudante de Desenvolvimento Front-end</p>
+                        <p class="palestrantes__item--formacao">UNIGRAN</p>
+                    </li>
+                    <li class="palestrantes__item">
+                        <img class="palestrantes__item--img" src="img/palestrantes/placeholder.jpeg" alt="Foto palestrante">
+                        <p class="palestrantes__item--nome">Cassia Sotolani</p>
+                        <p class="palestrantes__item--area">Estudante de Desenvolvimento Front-end</p>
+                        <p class="palestrantes__item--formacao">UNIGRAN</p>
+                    </li>
+                    <li class="palestrantes__item">
+                        <img class="palestrantes__item--img" src="img/palestrantes/placeholder.jpeg" alt="Foto palestrante">
+                        <p class="palestrantes__item--nome">Cassia Sotolani</p>
+                        <p class="palestrantes__item--area">Estudante de Desenvolvimento Front-end</p>
+                        <p class="palestrantes__item--formacao">UNIGRAN</p>
+                    </li>
+                    <li class="palestrantes__item">
+                        <img class="palestrantes__item--img" src="img/palestrantes/placeholder.jpeg" alt="Foto palestrante">
+                        <p class="palestrantes__item--nome">Cassia Sotolani</p>
+                        <p class="palestrantes__item--area">Estudante de Desenvolvimento Front-end</p>
+                        <p class="palestrantes__item--formacao">UNIGRAN</p>
+                    </li>
+                    <li class="palestrantes__item">
+                        <img class="palestrantes__item--img" src="img/palestrantes/placeholder.jpeg" alt="Foto palestrante">
+                        <p class="palestrantes__item--nome">Cassia Sotolani</p>
+                        <p class="palestrantes__item--area">Estudante de Desenvolvimento Front-end</p>
+                        <p class="palestrantes__item--formacao">UNIGRAN</p>
+                    </li>
+                    <li class="palestrantes__item">
+                        <img class="palestrantes__item--img" src="img/palestrantes/placeholder.jpeg" alt="Foto palestrante">
+                        <p class="palestrantes__item--nome">Cassia Sotolani</p>
+                        <p class="palestrantes__item--area">Estudante de Desenvolvimento Front-end</p>
+                        <p class="palestrantes__item--formacao">UNIGRAN</p>
+                    </li>
+                </ul>
+            </section>
+            <section id="formulario" class="formulario">
+                <h2 class="formulario__titulo">Seus dados</h2>
+                <form class="formulario__form">
+                    <div>
+                        <label class="formulario__label">Nome</label>
+                        <input type="text" class="formulario__input">
+                    </div>
+                    <div>
+                        <label class="formulario__label">E-mail</label>
+                        <input type="e-mail" class="formulario__input">
+                    </div>
+                    <button class="formulario__botao">Realizar inscrição</button>
+                </form>
+            </section>
         </main>
+        <script src="js/jquery.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>
